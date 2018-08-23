@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0040C46B211A9321006265C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040C46A211A9321006265C9 /* AppDelegate.m */; };
+		0040C46E211A9321006265C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040C46D211A9321006265C9 /* main.m */; };
+		0040C471211A9321006265C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040C470211A9321006265C9 /* ViewController.m */; };
+		0040C473211A9321006265C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0040C472211A9321006265C9 /* Assets.xcassets */; };
+		0040C476211A9321006265C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0040C474211A9321006265C9 /* Main.storyboard */; };
+		0040C481211A9321006265C9 /* FTDITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040C480211A9321006265C9 /* FTDITests.m */; };
+		0040C48C211A9321006265C9 /* FTDIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040C48B211A9321006265C9 /* FTDIUITests.m */; };
+		0040C4D8211A9E02006265C9 /* ftd2xx.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 0040C4D5211A9E02006265C9 /* ftd2xx.cfg */; };
+		0040C4D9211ABCDB006265C9 /* ftd2xx.h in Sources */ = {isa = PBXBuildFile; fileRef = 0040C4D6211A9E02006265C9 /* ftd2xx.h */; };
+		0040C4DA211ABCDB006265C9 /* WinTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 0040C4D7211A9E02006265C9 /* WinTypes.h */; };
+		0040C4DC211ABE6D006265C9 /* libftd2xx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0040C4DB211ABE6D006265C9 /* libftd2xx.a */; };
+		C61A1A9B211BE8430049FD2D /* logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C61A1A9A211BE8430049FD2D /* logo.PNG */; };
+		C61A1A9E211BEA380049FD2D /* AlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C61A1A9D211BEA380049FD2D /* AlertTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0040C47D211A9321006265C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0040C45E211A9321006265C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0040C465211A9321006265C9;
+			remoteInfo = FTDI;
+		};
+		0040C488211A9321006265C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0040C45E211A9321006265C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0040C465211A9321006265C9;
+			remoteInfo = FTDI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0040C466211A9321006265C9 /* FTDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0040C469211A9321006265C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0040C46A211A9321006265C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0040C46D211A9321006265C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0040C46F211A9321006265C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0040C470211A9321006265C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0040C472211A9321006265C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0040C475211A9321006265C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0040C477211A9321006265C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0040C47C211A9321006265C9 /* FTDITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTDITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0040C480211A9321006265C9 /* FTDITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTDITests.m; sourceTree = "<group>"; };
+		0040C482211A9321006265C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0040C487211A9321006265C9 /* FTDIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTDIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0040C48B211A9321006265C9 /* FTDIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTDIUITests.m; sourceTree = "<group>"; };
+		0040C48D211A9321006265C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0040C4D5211A9E02006265C9 /* ftd2xx.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ftd2xx.cfg; sourceTree = "<group>"; };
+		0040C4D6211A9E02006265C9 /* ftd2xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftd2xx.h; sourceTree = "<group>"; };
+		0040C4D7211A9E02006265C9 /* WinTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinTypes.h; sourceTree = "<group>"; };
+		0040C4DB211ABE6D006265C9 /* libftd2xx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libftd2xx.a; sourceTree = "<group>"; };
+		C61A1A9A211BE8430049FD2D /* logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.PNG; sourceTree = "<group>"; };
+		C61A1A9C211BEA380049FD2D /* AlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTool.h; sourceTree = "<group>"; };
+		C61A1A9D211BEA380049FD2D /* AlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0040C463211A9321006265C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0040C4DC211ABE6D006265C9 /* libftd2xx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0040C479211A9321006265C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0040C484211A9321006265C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0040C45D211A9321006265C9 = {
+			isa = PBXGroup;
+			children = (
+				0040C468211A9321006265C9 /* FTDI */,
+				0040C47F211A9321006265C9 /* FTDITests */,
+				0040C48A211A9321006265C9 /* FTDIUITests */,
+				0040C467211A9321006265C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0040C467211A9321006265C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0040C466211A9321006265C9 /* FTDI.app */,
+				0040C47C211A9321006265C9 /* FTDITests.xctest */,
+				0040C487211A9321006265C9 /* FTDIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0040C468211A9321006265C9 /* FTDI */ = {
+			isa = PBXGroup;
+			children = (
+				0040C469211A9321006265C9 /* AppDelegate.h */,
+				0040C46A211A9321006265C9 /* AppDelegate.m */,
+				0040C4DB211ABE6D006265C9 /* libftd2xx.a */,
+				0040C4D5211A9E02006265C9 /* ftd2xx.cfg */,
+				0040C4D6211A9E02006265C9 /* ftd2xx.h */,
+				0040C4D7211A9E02006265C9 /* WinTypes.h */,
+				0040C46F211A9321006265C9 /* ViewController.h */,
+				0040C470211A9321006265C9 /* ViewController.m */,
+				C61A1A9C211BEA380049FD2D /* AlertTool.h */,
+				C61A1A9D211BEA380049FD2D /* AlertTool.m */,
+				C61A1A9A211BE8430049FD2D /* logo.PNG */,
+				0040C472211A9321006265C9 /* Assets.xcassets */,
+				0040C474211A9321006265C9 /* Main.storyboard */,
+				0040C477211A9321006265C9 /* Info.plist */,
+				0040C46C211A9321006265C9 /* Supporting Files */,
+			);
+			path = FTDI;
+			sourceTree = "<group>";
+		};
+		0040C46C211A9321006265C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0040C46D211A9321006265C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0040C47F211A9321006265C9 /* FTDITests */ = {
+			isa = PBXGroup;
+			children = (
+				0040C480211A9321006265C9 /* FTDITests.m */,
+				0040C482211A9321006265C9 /* Info.plist */,
+			);
+			path = FTDITests;
+			sourceTree = "<group>";
+		};
+		0040C48A211A9321006265C9 /* FTDIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0040C48B211A9321006265C9 /* FTDIUITests.m */,
+				0040C48D211A9321006265C9 /* Info.plist */,
+			);
+			path = FTDIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0040C465211A9321006265C9 /* FTDI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0040C490211A9321006265C9 /* Build configuration list for PBXNativeTarget "FTDI" */;
+			buildPhases = (
+				0040C462211A9321006265C9 /* Sources */,
+				0040C463211A9321006265C9 /* Frameworks */,
+				0040C464211A9321006265C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTDI;
+			productName = FTDI;
+			productReference = 0040C466211A9321006265C9 /* FTDI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0040C47B211A9321006265C9 /* FTDITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0040C493211A9321006265C9 /* Build configuration list for PBXNativeTarget "FTDITests" */;
+			buildPhases = (
+				0040C478211A9321006265C9 /* Sources */,
+				0040C479211A9321006265C9 /* Frameworks */,
+				0040C47A211A9321006265C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0040C47E211A9321006265C9 /* PBXTargetDependency */,
+			);
+			name = FTDITests;
+			productName = FTDITests;
+			productReference = 0040C47C211A9321006265C9 /* FTDITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0040C486211A9321006265C9 /* FTDIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0040C496211A9321006265C9 /* Build configuration list for PBXNativeTarget "FTDIUITests" */;
+			buildPhases = (
+				0040C483211A9321006265C9 /* Sources */,
+				0040C484211A9321006265C9 /* Frameworks */,
+				0040C485211A9321006265C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0040C489211A9321006265C9 /* PBXTargetDependency */,
+			);
+			name = FTDIUITests;
+			productName = FTDIUITests;
+			productReference = 0040C487211A9321006265C9 /* FTDIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0040C45E211A9321006265C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mactest;
+				TargetAttributes = {
+					0040C465211A9321006265C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0040C47B211A9321006265C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0040C465211A9321006265C9;
+					};
+					0040C486211A9321006265C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0040C465211A9321006265C9;
+					};
+				};
+			};
+			buildConfigurationList = 0040C461211A9321006265C9 /* Build configuration list for PBXProject "FTDI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0040C45D211A9321006265C9;
+			productRefGroup = 0040C467211A9321006265C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0040C465211A9321006265C9 /* FTDI */,
+				0040C47B211A9321006265C9 /* FTDITests */,
+				0040C486211A9321006265C9 /* FTDIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0040C464211A9321006265C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61A1A9B211BE8430049FD2D /* logo.PNG in Resources */,
+				0040C473211A9321006265C9 /* Assets.xcassets in Resources */,
+				0040C4D8211A9E02006265C9 /* ftd2xx.cfg in Resources */,
+				0040C476211A9321006265C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0040C47A211A9321006265C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0040C485211A9321006265C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0040C462211A9321006265C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61A1A9E211BEA380049FD2D /* AlertTool.m in Sources */,
+				0040C4D9211ABCDB006265C9 /* ftd2xx.h in Sources */,
+				0040C4DA211ABCDB006265C9 /* WinTypes.h in Sources */,
+				0040C471211A9321006265C9 /* ViewController.m in Sources */,
+				0040C46E211A9321006265C9 /* main.m in Sources */,
+				0040C46B211A9321006265C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0040C478211A9321006265C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0040C481211A9321006265C9 /* FTDITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0040C483211A9321006265C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0040C48C211A9321006265C9 /* FTDIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0040C47E211A9321006265C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0040C465211A9321006265C9 /* FTDI */;
+			targetProxy = 0040C47D211A9321006265C9 /* PBXContainerItemProxy */;
+		};
+		0040C489211A9321006265C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0040C465211A9321006265C9 /* FTDI */;
+			targetProxy = 0040C488211A9321006265C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0040C474211A9321006265C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0040C475211A9321006265C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0040C48E211A9321006265C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0040C48F211A9321006265C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0040C491211A9321006265C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FTDI/libftd2xx.1.4.4.dylib\"";
+				INFOPLIST_FILE = FTDI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTDI",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = piaoxu139.FTDI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0040C492211A9321006265C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FTDI/libftd2xx.1.4.4.dylib\"";
+				INFOPLIST_FILE = FTDI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTDI",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = piaoxu139.FTDI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0040C494211A9321006265C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FTDITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = piaoxu139.FTDITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTDI.app/Contents/MacOS/FTDI";
+			};
+			name = Debug;
+		};
+		0040C495211A9321006265C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FTDITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = piaoxu139.FTDITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTDI.app/Contents/MacOS/FTDI";
+			};
+			name = Release;
+		};
+		0040C497211A9321006265C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = FTDIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = piaoxu139.FTDIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTDI;
+			};
+			name = Debug;
+		};
+		0040C498211A9321006265C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = FTDIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = piaoxu139.FTDIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTDI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0040C461211A9321006265C9 /* Build configuration list for PBXProject "FTDI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0040C48E211A9321006265C9 /* Debug */,
+				0040C48F211A9321006265C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0040C490211A9321006265C9 /* Build configuration list for PBXNativeTarget "FTDI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0040C491211A9321006265C9 /* Debug */,
+				0040C492211A9321006265C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0040C493211A9321006265C9 /* Build configuration list for PBXNativeTarget "FTDITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0040C494211A9321006265C9 /* Debug */,
+				0040C495211A9321006265C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0040C496211A9321006265C9 /* Build configuration list for PBXNativeTarget "FTDIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0040C497211A9321006265C9 /* Debug */,
+				0040C498211A9321006265C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0040C45E211A9321006265C9 /* Project object */;
+}
